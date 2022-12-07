@@ -1,38 +1,34 @@
 'use strict'
 
-var number = 5;
-var string = "Hello";
-var symbol = Symbol();
-var boolean = true;
-undefined;
-null;
-
-/*
-let person = {
-    name: "Максим",
-    sex:"male",
-    age:"20",
-    city:"Moscow"
-};*/
-
-// let array = [3,5,6,7,8,9,0,1];
-// console.log(array[6]);
+let number = 10;
+switch (number) 
+{
+    case number < 20:
+        console.log("Маловато");
+        break;
+    case number > 100:
+        console.log("большое число");
+        break;
+    case number > 80:
+        console.log("не");
+        break;
+    case 50:
+        console.log("Даааа,верно");
+        break;
+    default:
+        console.log("Что-то пошло не так!");
+        break;
+}
 // 
 // 
-// let answer = prompt("Сколько вам лет?");
 // 
-// if (answer < 18) {
-    // console.log("Вам отказано в посещении сайта")   
+// 
+// let number = 50;
+// while(number < 60) {
+    // number++
+    // console.log(number)
 // }
 // 
-// if (answer > 18) {
-    // console.log("Все хорошо - проходите")   
-// }
-// 
-
-// let answer = prompt("Ваше имя", "введите имя");
-// 
-
 
 
 
